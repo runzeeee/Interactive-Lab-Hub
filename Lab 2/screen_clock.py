@@ -2,6 +2,7 @@ import time
 import subprocess
 import digitalio
 import board
+from time import strftime, sleep
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 
@@ -65,7 +66,7 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-
+    draw.text((10,10), strftime("%m/%d/%Y %H:%M:%S"), font=font, fill="#FFFFFF")
     # Display image.
     disp.image(image, rotation)
     time.sleep(1)
