@@ -1,4 +1,5 @@
 # Interactive Prototyping: The Clock of Pi
+**NAMES OF COLLABORATORS HERE**
 
 Does it feel like time is moving strangely during this semester?
 
@@ -188,6 +189,7 @@ Please sketch/diagram your clock idea. (Try using a [Verplank digram](http://www
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
+![IMG_0040](https://user-images.githubusercontent.com/58859231/189765381-e6e5d47b-3006-4f49-ba42-93e33d6a315e.jpg)
 
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
@@ -207,9 +209,14 @@ After that, Git will ask you to login to your GitHub account to push the updates
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+
+https://user-images.githubusercontent.com/58859231/189765901-b8b16fa4-96cb-4423-b0ab-8510e79846d1.mp4
+
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+![IMG_0041](https://user-images.githubusercontent.com/58859231/189765472-6ab5be9e-f602-41c6-b75d-4f655597e384.jpg)
 
 # Prep for Part 2
 
@@ -217,6 +224,23 @@ After that, Git will ask you to login to your GitHub account to push the updates
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+Heather Zhang:
+
+There can be more graphical features instead of purely literal expression of days. Maybe use more graphical expression to make the clock more interactive.
+
+Aashika Perunkolam, Anjali Vyas:
+
+1.Camara face mood detection to change background color
+
+2.Button to manually add hours of sleep 
+
+3.Time zone
+
+4.Button to manually add coffees I have
+
+5.Connect with weather API to know the exact sun-raise time to set day and night
+
 
 # Lab 2 Part 2
 
@@ -227,5 +251,10 @@ Modify the code from last week's lab to make a new visual interface for your new
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+
+![IMG_23598B6F93A6-1](https://user-images.githubusercontent.com/58859231/190932819-659cb4a5-85c0-46e2-82b0-81c7929d16e0.jpeg)
+
+
+https://user-images.githubusercontent.com/58859231/190932566-cee51e9f-fe7b-4c07-a19c-148958f44d1c.mp4
 
 
