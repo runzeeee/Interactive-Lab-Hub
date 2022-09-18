@@ -226,13 +226,19 @@ https://user-images.githubusercontent.com/58859231/189765901-b8b16fa4-96cb-4423-
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
 
 Heather Zhang:
+
 There can be more graphical features instead of purely literal expression of days. Maybe use more graphical expression to make the clock more interactive.
 
 Aashika Perunkolam, Anjali Vyas:
+
 1.Camara face mood detection to change background color
+
 2.Button to manually add hours of sleep 
+
 3.Time zone
+
 4.Button to manually add coffees I have
+
 5.Connect with weather API to know the exact sun-raise time to set day and night
 
 
