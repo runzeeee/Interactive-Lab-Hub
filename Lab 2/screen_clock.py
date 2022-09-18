@@ -62,6 +62,10 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+
+cupsOfCoffee = 0
+hoursOfSleep = 0
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -75,7 +79,8 @@ while True:
     buttonA.switch_to_input()
     buttonB.switch_to_input()
 
-    Day = strftime("%d") + " Cups of Morning Coffee"
+
+    Day = strftime("%d") + " Times of Sunrise"
     Month = strftime("%m") + " Times Rent Paid"
     Year = str(int(strftime("%Y"))-2000) + " Years Old"
     
@@ -105,6 +110,9 @@ while True:
     Hour = checkDayNight()
     MinuteSecond = str(int(strftime("%M")) * 60 + int(strftime("%S"))) + " Times Love U(Hourly)"
 
+    SleepHours = str(hoursOfSleep) + " hours of sleep this week"
+    CoffeeNum = str(cupsOfCoffee) + " cups of coffee consumed"
+    
     if buttonA.value and buttonB.value: # defalt diplay
         #draw.text((0,10), Time, font=font, fill="#FFFFFF")
         y = top
@@ -117,11 +125,18 @@ while True:
         draw.text((x, y), Hour, font=font, fill="#9FD4BE")
         y += font.getsize(Hour)[1]
         draw.text((x, y), MinuteSecond, font=font, fill="#F5A997")
+        y += font.getsize(CoffeeNum)[1]
+        draw.text((x, y), CoffeeNum, font=font, fill="#F5A997")
+        y += font.getsize(SleepHours)[1]
+        draw.text((x, y), SleepHours, font=font, fill="#F5A997")
 
     if buttonB.value and not buttonA.value:  # just button A pressed
-        draw.text((0,10), checkDaysremain(), font=font, fill="#FFFFFF")  # set the screen to white
+    #    draw.text((0,10), checkDaysremain(), font=font, fill="#FFFFFF")  # set the screen to white
+    #    addCoffee()
+        cupsOfCoffee += 1
     if buttonA.value and not buttonB.value:  # just button B pressed
-        draw.text((0,10), checksectonextday(), font=font, fill="#FFFFFF")  # set the screen to white
+    #    draw.text((0,10), checksectonextday(), font=font, fill="#FFFFFF")  # set the screen to white
+        hoursOfSleep += 1
     if not buttonA.value and not buttonB.value:  # All pressed
         draw.text((0,10), strftime("%m/%d/%Y %H:%M:%S"), font=font, fill="#0000FF")
     # Display image.
