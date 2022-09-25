@@ -104,10 +104,22 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+![Speech enabled device-1](https://user-images.githubusercontent.com/58859231/192171238-43e27bc3-9d2a-4a35-9acb-4cb9bc544163.jpg)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+1. Let the participant start a game of League of Legends with his teammates in the voice channel to communicate.
+
+2. The participant will tell teammates when opposite players use their critical spells(eg. Flash, Heal, Teleport, Ignite...)
+
+3. The device will record the opposite player's name, the spell they used, and the current time.
+
+4. The device will calculate the time when the next spell of the opposite player available to inform the participant.
+
+5. The participant will be informed and win the game.
+
 
 ### Acting out the dialogue
 
