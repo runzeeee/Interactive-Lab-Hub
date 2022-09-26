@@ -129,6 +129,14 @@ Find a partner, and *without sharing the script with your partner* try out the d
 
 https://drive.google.com/file/d/1tQ_yjxytbq8tbcuBBkqMLzqrqDerK5Vo/view?usp=sharing
 
+The whole process is relatively smooth, and the task of recording the cooldown time of spells is well completed. But the problem encountered is：
+
+1. Participants may speak very quickly when reporting on the opponent's use of spells.
+
+2. Participants may not be clear about who the opponent is when reporting on the spells used by the opponent.
+
+3. Audio reminders may be easily overlooked, and visual reminders need to be added。
+
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
 
