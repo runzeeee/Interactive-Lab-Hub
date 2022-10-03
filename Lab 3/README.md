@@ -104,16 +104,38 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
+![Speech enabled device-1](https://user-images.githubusercontent.com/58859231/192171238-43e27bc3-9d2a-4a35-9acb-4cb9bc544163.jpg)
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+1. Let the participant start a game of League of Legends with his teammates in the voice channel to communicate.
+
+2. The participant will tell teammates when opposite players use their critical spells(eg. Flash, Heal, Teleport, Ignite...)
+
+3. The device will record the opposite player's name, the spell they used, and the current time.
+
+4. The device will calculate the time when the next spell of the opposite player available to inform the participant.
+
+5. The participant will be informed and win the game.
+
 
 ### Acting out the dialogue
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+https://drive.google.com/file/d/1tQ_yjxytbq8tbcuBBkqMLzqrqDerK5Vo/view?usp=sharing
+
+The whole process is relatively smooth, and the task of recording the cooldown time of spells is well completed. But the problem encountered is：
+
+1. Participants may speak very quickly when reporting on the opponent's use of spells.
+
+2. Participants may not be clear about who the opponent is when reporting on the spells used by the opponent.
+
+3. Audio reminders may be easily overlooked, and visual reminders need to be added。
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!
@@ -127,8 +149,17 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+  Ask specific question to have easily anticipated answers.
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+  I want to use accelerometer as motion sensor to detect movement of users.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+![Speech enabled device-2](https://user-images.githubusercontent.com/58859231/193698531-021f5435-db34-49db-aa4e-52e8348c41e3.jpg)
+
 
 ## Prototype your system
 
@@ -139,7 +170,23 @@ The system should:
 
 *Document how the system works*
 
+Attach the accelerometer to the user's hand. When the user is working, his hand will move, and the motion sensor signal will be transmitted to the controller. When the user's working time reaches 1 hour, the device will ask the user if he needs to rest by voice. If the user agrees to rest, continue to ask the user if he wants to listen to relaxing music. If the user agrees, play music, otherwise do not play music. If the user answers that there is no need to take a break, the user will be reminded to take a break after one hour and the music will be played directly. During music playback the user can say stop music to stop music playback.
+
+
+
 *Include videos or screencaptures of both the system and the controller.*
+![2571664836971_ pic](https://user-images.githubusercontent.com/58859231/193699348-ec6f002e-1750-4d50-af69-310eb871fd36.jpg)
+
+
+https://user-images.githubusercontent.com/58859231/193699359-ad82d9eb-de97-4417-b6c6-ae9ae99542e3.mp4
+
+
+https://user-images.githubusercontent.com/58859231/193699697-5570d626-7742-4e2f-a581-5622202ca119.mp4
+
+
+https://user-images.githubusercontent.com/58859231/193699711-91446206-3327-45a6-a5ef-89cd01dbe568.mp4
+
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -149,16 +196,24 @@ Answer the following:
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
 
+Accelerometer can detect the user's action behavior very well. Adding new sensors adds more possible interactions to the device. The user can clearly understand the question sent by the device, and the device can also understand the user's answer. However, the user may be confused on the first use and not know how to answer the questions posed by the device. But once they got acquainted with the equipment, there were no more problems.
+
 ### What worked well about the controller and what didn't?
 
 \*\**your answer here*\*\*
+
+The Controller can clearly display the user's actions through the signals transmitted back by the accelerometer, and can quickly and effectively play the input sentences. The added play music function can also successfully play and stop music. However, the process of returning the user voice collected by the microphone through the controller is relatively long. This process has a large delay, and the user feels very strange.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 \*\**your answer here*\*\*
 
+The Autonomous version needs to consider more possible scenarios. All the device interaction questions should aim for clear and easily predictable answers. Don't ask open-ended questions! It is best to ask guided questions when the device interacts with the user, leaving the user to respond with limited options.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
+I can create a dataset of interaction by establishing a relationship between working hours and users' speech to text responses. Face recognition can also be added to recognize the user's expression — adding emotional data. Light sensors can also be added to capture ambient light to incorporate ambient data. With this data, it is possible to predict and study the time when work is most efficient and how to work happily.
+
 
