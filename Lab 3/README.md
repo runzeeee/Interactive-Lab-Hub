@@ -149,8 +149,17 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+  Ask specific question to have easily anticipated answers.
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+  I want to use accelerometer as motion sensor to detect movement of users.
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+![Speech enabled device-2](https://user-images.githubusercontent.com/58859231/193698531-021f5435-db34-49db-aa4e-52e8348c41e3.jpg)
+
 
 ## Prototype your system
 
