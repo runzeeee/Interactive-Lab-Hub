@@ -214,4 +214,6 @@ The Autonomous version needs to consider more possible scenarios. All the device
 
 \*\**your answer here*\*\*
 
+I can create a dataset of interaction by establishing a relationship between working hours and users' speech to text responses. Face recognition can also be added to recognize the user's expression — adding emotional data. Light sensors can also be added to capture ambient light to incorporate ambient data. With this data, it is possible to predict and study the time when work is most efficient and how to work happily.
+
 
