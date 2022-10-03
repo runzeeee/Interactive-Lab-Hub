@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
+    <title>Document</title>
+</head>
+<body>
+	<div id='chart'></div>
+    <br>
+	<button id = 'play'>Eavesdrop</button>
+    <audio id='mic' src="http://{{ hostname }}.local:8080" >
+    </audio>
+        <br>
+            <br>
+    <label> Speak
+        <input type="text" id='wordsIn'>
+        <button id='send'>send</button>
+
+    </label>
+
+    <audio id="myAudio">
+        <source src="Lab 3/demo/templates/forest-lullaby-110624.mp3" type="audio/mpeg">
+    </audio>
+
+    <label> Play music
+        <button onclick="playAudio()" type="button">Play Audio</button>
+        <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+    </label>
+
+<script src="static/index.js"></script>
+<script>
+    var x = document.getElementById("myAudio"); 
+    
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+    </script>
+</body>
+</html>

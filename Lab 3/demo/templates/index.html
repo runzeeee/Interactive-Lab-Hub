@@ -25,6 +25,29 @@
         <button id='send'>send</button>
 
     </label>
+
+    <audio id="myAudio">
+        <source src="/home/pi/Interactive-Lab-Hub/Lab 3/demo/templates/forest-lullaby-110624.mp3" type="audio/mpeg">
+
+    </audio>
+
+    <label> Play music
+        <button onclick="playAudio()" type="button">Play Audio</button>
+        <button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+    </label>
+
 <script src="static/index.js"></script>
+<script>
+    var x = document.getElementById("myAudio"); 
+    
+    function playAudio() { 
+      x.play(); 
+    } 
+    
+    function pauseAudio() { 
+      x.pause(); 
+    } 
+    </script>
 </body>
 </html>
