@@ -170,7 +170,16 @@ The system should:
 
 *Document how the system works*
 
+Attach the accelerometer to the user's hand. When the user is working, his hand will move, and the motion sensor signal will be transmitted to the controller. When the user's working time reaches 1 hour, the device will ask the user if he needs to rest by voice. If the user agrees to rest, continue to ask the user if he wants to listen to relaxing music. If the user agrees, play music, otherwise do not play music. If the user answers that there is no need to take a break, the user will be reminded to take a break after one hour and the music will be played directly. During music playback the user can say stop music to stop music playback.
+
+
+
 *Include videos or screencaptures of both the system and the controller.*
+![2571664836971_ pic](https://user-images.githubusercontent.com/58859231/193699348-ec6f002e-1750-4d50-af69-310eb871fd36.jpg)
+
+
+https://user-images.githubusercontent.com/58859231/193699359-ad82d9eb-de97-4417-b6c6-ae9ae99542e3.mp4
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
