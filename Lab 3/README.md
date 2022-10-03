@@ -181,6 +181,13 @@ Attach the accelerometer to the user's hand. When the user is working, his hand 
 https://user-images.githubusercontent.com/58859231/193699359-ad82d9eb-de97-4417-b6c6-ae9ae99542e3.mp4
 
 
+https://user-images.githubusercontent.com/58859231/193699697-5570d626-7742-4e2f-a581-5622202ca119.mp4
+
+
+https://user-images.githubusercontent.com/58859231/193699711-91446206-3327-45a6-a5ef-89cd01dbe568.mp4
+
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
@@ -189,16 +196,22 @@ Answer the following:
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
 
+Accelerometer can detect the user's action behavior very well. Adding new sensors adds more possible interactions to the device. The user can clearly understand the question sent by the device, and the device can also understand the user's answer. However, the user may be confused on the first use and not know how to answer the questions posed by the device. But once they got acquainted with the equipment, there were no more problems.
+
 ### What worked well about the controller and what didn't?
 
 \*\**your answer here*\*\*
+
+The Controller can clearly display the user's actions through the signals transmitted back by the accelerometer, and can quickly and effectively play the input sentences. The added play music function can also successfully play and stop music. However, the process of returning the user voice collected by the microphone through the controller is relatively long. This process has a large delay, and the user feels very strange.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 \*\**your answer here*\*\*
 
+The Autonomous version needs to consider more possible scenarios. All the device interaction questions should aim for clear and easily predictable answers. Don't ask open-ended questions! It is best to ask guided questions when the device interacts with the user, leaving the user to respond with limited options.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
 
