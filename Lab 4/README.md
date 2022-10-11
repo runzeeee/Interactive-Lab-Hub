@@ -238,7 +238,9 @@ Think about how you want to present the information about what your sensor is se
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-The display needs to be placed horizontally to display as many numbers as possible。
+1.The display needs to be placed horizontally to display as many numbers as possible.
+
+2.Number keys should be large enough and spaced widely to avoid accidental wrong touches.
 
 Build a cardbord prototype of your design.
 
