@@ -178,6 +178,11 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+1.Will water(rain) change the capacitance? I need to pysically test water on copper tape that connect with sensor.
+
+2.Is it possible to trigger multiple nodes at the same time？I need to touch multiple nodes at the same time to test.
+
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 
