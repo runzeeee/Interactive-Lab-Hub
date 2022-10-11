@@ -181,7 +181,7 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 1.Will water(rain) change the capacitance? I need to pysically test water on copper tape that connect with sensor.
 
-2.Is it possible to trigger multiple nodes at the same time？I need to touch multiple nodes at the same time to test.
+2.Is it possible to trigger multiple nodes at the same time？I need to touch multiple nodes at the same time to test. 
 
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
@@ -226,12 +226,19 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![Lab4-2](https://user-images.githubusercontent.com/58859231/195191524-49eaeaad-52dc-4c0d-bb1b-5e607856fb91.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+1.Is it possible to trigger one function by triggering two or more nodes at the same time? I need to connect two nodes or more to one button to test functionality.
+
+2.What material can be used as keys？Whether plastic, paper, copper, candy can affect the capacitance？I need to try different materials to contact the alligator clips to see if they can affect sensor.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The display needs to be placed horizontally to display as many numbers as possible。
 
 Build a cardbord prototype of your design.
 
