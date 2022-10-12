@@ -186,6 +186,7 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+Number Pad
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
