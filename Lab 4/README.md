@@ -301,7 +301,10 @@ https://user-images.githubusercontent.com/58859231/196269885-9b054738-592a-4a48-
 
 
 * "Acts like": shows how a person would interact with the device
+
+
 Shibo has no music background and cannot play piano.
+
 Frist trail he was pressing random keys:
 
 https://user-images.githubusercontent.com/58859231/196270071-88e0fd14-a9f0-4be0-a083-fc85f6033202.mp4
