@@ -287,6 +287,28 @@ We encourage you to try using these controls, **while** paying particular attent
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+![Lab4-3](https://user-images.githubusercontent.com/58859231/196269504-caed2e46-b4b4-4154-8af8-d6a344b4345d.jpg)
+
+The device should looks like a piano, when user touch the key, the device should make do,re,mi,fa,so,la tunes.
+
+Real prototype:
+![image](https://user-images.githubusercontent.com/58859231/196269751-75057b6a-2aa9-4e1a-9bdc-06154a270439.png)
+
+
 * "Works like": shows what the device can do
+
+https://user-images.githubusercontent.com/58859231/196269885-9b054738-592a-4a48-9cbc-f677b0ed9a03.mp4
+
+
 * "Acts like": shows how a person would interact with the device
+Shibo has no music background and cannot play piano.
+Frist trail he was pressing random keys:
+
+https://user-images.githubusercontent.com/58859231/196270071-88e0fd14-a9f0-4be0-a083-fc85f6033202.mp4
+
+Then I spent five minutes to teach him how to paly and he could play 《Twinkle Twinkle Little Star》.
+
+https://user-images.githubusercontent.com/58859231/196270632-fe21f4a6-a5f3-4f48-977e-605b2531934e.mp4
+
+
 
