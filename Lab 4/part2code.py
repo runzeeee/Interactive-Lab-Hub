@@ -20,7 +20,7 @@ la = pygame.mixer.Sound('/home/pi/Interactive-Lab-Hub/Lab 4/sound/la.wav')
 si = pygame.mixer.Sound('/home/pi/Interactive-Lab-Hub/Lab 4/sound/si.wav')
 
 while True:
-      if mpr121[1].value:
+      if mpr121[5].value:
          do.play()
          oled.fill(0)
          oled.show()
@@ -29,7 +29,7 @@ while True:
          draw.text((50, 15), "do", fill=255)
          oled.image(image)
          oled.show()
-      if mpr121[2].value:
+      if mpr121[4].value:
          re.play()
          oled.fill(0)
          oled.show()
@@ -47,7 +47,7 @@ while True:
          draw.text((50, 15), "mi", fill=255)
          oled.image(image)
          oled.show()
-      if mpr121[4].value:
+      if mpr121[2].value:
          fa.play()
          oled.fill(0)
          oled.show()
@@ -56,7 +56,7 @@ while True:
          draw.text((50, 15), "fa", fill=255)
          oled.image(image)
          oled.show()
-      if mpr121[5].value:
+      if mpr121[1].value:
          sol.play()
          oled.fill(0)
          oled.show()
@@ -65,7 +65,7 @@ while True:
          draw.text((50, 15), "so", fill=255)
          oled.image(image)
          oled.show()
-      if mpr121[6].value:
+      if mpr121[0].value:
          la.play()
          oled.fill(0)
          oled.show()
@@ -83,7 +83,7 @@ while True:
          draw.text((50, 15), "si", fill=255)
          oled.image(image)
          oled.show()
-
+      time.sleep(0.1)
 
             
             #print(f"Twizzler {i} touched!")
