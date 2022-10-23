@@ -175,11 +175,18 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+![Untitled (Draft)-1](https://user-images.githubusercontent.com/58859231/195188717-e5a3ac15-1365-46be-8f40-1bd774f12991.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+1.Will water(rain) change the capacitance? I need to pysically test water on copper tape that connect with sensor.
+
+2.Is it possible to trigger multiple nodes at the same time？I need to touch multiple nodes at the same time to test. 
+
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+Number Pad
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -220,18 +227,26 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![Lab4-2](https://user-images.githubusercontent.com/58859231/195191524-49eaeaad-52dc-4c0d-bb1b-5e607856fb91.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+1.Is it possible to trigger one function by triggering two or more nodes at the same time? I need to connect two nodes or more to one button to test functionality.
+
+2.What material can be used as keys？Whether plastic, paper, copper, candy can affect the capacitance？I need to try different materials to contact the alligator clips to see if they can affect sensor.
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
+1.The display needs to be placed horizontally to display as many numbers as possible.
+
+2.Number keys should be large enough and spaced widely to avoid accidental wrong touches.
+
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
-
-
+![image](https://user-images.githubusercontent.com/58859231/195243955-9d2e7523-8c1f-413f-a025-f78f8586ab78.png)
 LAB PART 2
 
 ### Part 2
@@ -272,6 +287,31 @@ We encourage you to try using these controls, **while** paying particular attent
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
+![Lab4-3](https://user-images.githubusercontent.com/58859231/196269504-caed2e46-b4b4-4154-8af8-d6a344b4345d.jpg)
+
+The device should looks like a piano, when user touch the key, the device should make do,re,mi,fa,so,la tunes.
+
+Real prototype:
+![image](https://user-images.githubusercontent.com/58859231/196269751-75057b6a-2aa9-4e1a-9bdc-06154a270439.png)
+
+
 * "Works like": shows what the device can do
+
+https://user-images.githubusercontent.com/58859231/196269885-9b054738-592a-4a48-9cbc-f677b0ed9a03.mp4
+
+
 * "Acts like": shows how a person would interact with the device
+
+
+Shibo has no music background and cannot play piano.
+
+Frist trail he was pressing random keys:
+
+https://user-images.githubusercontent.com/58859231/196270071-88e0fd14-a9f0-4be0-a083-fc85f6033202.mp4
+
+Then I spent five minutes to teach him how to paly and he could play 《Twinkle Twinkle Little Star》.
+
+https://user-images.githubusercontent.com/58859231/196270632-fe21f4a6-a5f3-4f48-977e-605b2531934e.mp4
+
+
 
