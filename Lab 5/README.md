@@ -265,10 +265,21 @@ The camera monitors the shelf. If there is at least one object on the shelf, it 
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? 
+
+It should display "Out of stock" when there is no item on the shelf.
+      
+3. When does it fail?
+
+When the shelf is identified as an object.
+    
+5. When it fails, why does it fail?
+
+Because the camera is too far away from the shelf, so that it perceives the shelf as an object.
+
+7. Based on the behavior you have seen, what other scenarios could cause problems?
+
+When there are some irrelavent object that falls on the shelf.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
