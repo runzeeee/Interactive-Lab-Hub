@@ -256,6 +256,7 @@ Unmanned store systems use object detection to find out if an item is out of sto
 
 The camera monitors the shelf. If there is at least one object on the shelf, it is normal. If there is no item on the shelf, then "Out of stock" is displayed.
 
+![Lab 5-1](https://user-images.githubusercontent.com/58859231/197638233-88722d97-f27e-4ad1-93f9-639c385dc448.jpg)
 
 
 
