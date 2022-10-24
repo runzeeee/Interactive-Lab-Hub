@@ -93,13 +93,17 @@ def main():
                 It finds the loudest amplitued and its coresponding bin  with `argmax()`. 
                 The uses the index to look up the Freqeucny value.
                 '''
-
+                FrequencyBin = np.abs(frequencies - 500).argmin()
+                volume = amplitudes[FrequencyBin]
 
                 LoudestFrequency = frequencies[amplitudes.argmax()]
                 
                 print("Loudest Frqeuncy:",LoudestFrequency)
                 print("RMS volume:",volumneSlow)
                 print("Volume Change:",volumechange)
+                print("Volume 500k:",volume)
+                if volumneSlow > 1000:
+                    print("Volume is too loud!")
                 
                 nextTimeStamp = UPDATE_INTERVAL+time.time() # See `UPDATE_INTERVAL` above
 
