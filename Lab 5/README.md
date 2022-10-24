@@ -327,7 +327,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 * When will X break?
 
-    The shelf is too small, the light is too low, or the camera is at the wrong angle
+    The shelf is too small, the light is too low, or the camera is at the wrong angle。
 
 * When it breaks how will X break?
 
