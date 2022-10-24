@@ -102,6 +102,27 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
 
+contours.py
+<img width="1185" alt="contours-detection" src="https://user-images.githubusercontent.com/58859231/197633202-9c78bac9-249c-4b0c-95ed-e63f87fc80c5.png">
+
+Design: Products that can measure the user's body, and the measurement data can be used to customize suits.
+
+face-detection.py
+<img width="1180" alt="face-detection" src="https://user-images.githubusercontent.com/58859231/197633231-2285ed80-609a-43e3-ab72-b6d92ec10e7a.png">
+
+Design: The counting system set at the gate of the playground can count how many tourists there are every day.
+
+optical_flow.py
+<img width="1187" alt="flow-detection" src="https://user-images.githubusercontent.com/58859231/197633215-fd06ddea-012c-484b-abde-028c23369809.png">
+
+Design: The first-person game uses the head movement data to calculate the perspective offset to obtain the head movement effect.
+
+detect.py
+<img width="1176" alt="object-detection" src="https://user-images.githubusercontent.com/58859231/197633237-801e9cf0-e545-4753-92f0-691777fe4db2.png">
+
+Design: Unmanned store systems use object detection to find out if an item is out of stock.
+
+
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
 
