@@ -267,25 +267,36 @@ Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do? 
 
-It should display "Out of stock" when there is no item on the shelf.
+    It should display "Out of stock" when there is no item on the shelf.
       
-3. When does it fail?
+2. When does it fail?
 
-When the shelf is identified as an object.
+    When the shelf is identified as an object.
     
-5. When it fails, why does it fail?
+3. When it fails, why does it fail?
 
-Because the camera is too far away from the shelf, so that it perceives the shelf as an object.
+    Because the camera is too far away from the shelf, so that it perceives the shelf as an object.
 
-7. Based on the behavior you have seen, what other scenarios could cause problems?
+4. Based on the behavior you have seen, what other scenarios could cause problems?
 
-When there are some irrelavent object that falls on the shelf.
+    When there are some irrelavent object that falls on the shelf.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+    Yes, they realize sometimes the warning report may not be accurate.
+
+2. How bad would they be impacted by a miss classification?
+
+    Pretty bad, too frequent misreporting can lead to distrust of the system, making the system no longer cared by users.
+
+3. How could change your interactive system to address this?
+
+    Add more sensors such as weight sensors to ensure accuracy.
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+    Color contrast detection can be added to determine whether the product exists on the shelf.
 
 ### Part D
 ### Characterize your own Observant system
