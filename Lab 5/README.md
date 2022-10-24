@@ -252,6 +252,13 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+Unmanned store systems use object detection to find out if an item is out of stock.
+
+The camera monitors the shelf. If there is at least one object on the shelf, it is normal. If there is no item on the shelf, then "Out of stock" is displayed.
+
+
+
+
 ### Part C
 ### Test the interaction prototype
 
