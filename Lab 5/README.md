@@ -313,6 +313,34 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
+* What can you use X for?
+
+    Finding out if an item on the display shelf is out of stock.
+
+* What is a good environment for X?
+
+    Large shelf, well-lit environment.
+    
+* What is a bad environment for X?
+
+    Compact shelf, low light.
+
+* When will X break?
+
+    The shelf is too small, the light is too low, or the camera is at the wrong angle
+
+* When it breaks how will X break?
+
+    frequent misreporting or failure to raise the correct report.
+
+* What are other properties/behaviors of X?
+
+    It can record the cycle from replenishment to out of stock, which may be used to create inventory management models.
+
+* How does X feel?
+
+    Just fine prototype.
+
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
