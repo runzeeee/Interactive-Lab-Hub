@@ -252,21 +252,51 @@ This might take a while to get fully installed. After installation, connect your
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
 
+Unmanned store systems use object detection to find out if an item is out of stock.
+
+The camera monitors the shelf. If there is at least one object on the shelf, it is normal. If there is no item on the shelf, then "Out of stock" is displayed.
+
+![Lab 5-1](https://user-images.githubusercontent.com/58859231/197638233-88722d97-f27e-4ad1-93f9-639c385dc448.jpg)
+
+
+
 ### Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note down your observations**:
 For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+1. When does it what it is supposed to do? 
+
+    It should display "Out of stock" when there is no item on the shelf.
+      
+2. When does it fail?
+
+    When the shelf is identified as an object.
+    
+3. When it fails, why does it fail?
+
+    Because the camera is too far away from the shelf, so that it perceives the shelf as an object.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+    When there are some irrelavent object that falls on the shelf.
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+    Yes, they realize sometimes the warning report may not be accurate.
+
+2. How bad would they be impacted by a miss classification?
+
+    Pretty bad, too frequent misreporting can lead to distrust of the system, making the system no longer cared by users.
+
+3. How could change your interactive system to address this?
+
+    Add more sensors such as weight sensors to ensure accuracy.
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+    Color contrast detection can be added to determine whether the product exists on the shelf.
 
 ### Part D
 ### Characterize your own Observant system
@@ -282,6 +312,34 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+* What can you use X for?
+
+    Finding out if an item on the display shelf is out of stock.
+
+* What is a good environment for X?
+
+    Large shelf, well-lit environment.
+    
+* What is a bad environment for X?
+
+    Compact shelf, low light.
+
+* When will X break?
+
+    The shelf is too small, the light is too low, or the camera is at the wrong angle。
+
+* When it breaks how will X break?
+
+    frequent misreporting or failure to raise the correct report.
+
+* What are other properties/behaviors of X?
+
+    It can record the cycle from replenishment to out of stock, which may be used to create inventory management models.
+
+* How does X feel?
+
+    Just fine prototype.
 
 ### Part 2.
 
