@@ -179,8 +179,11 @@ Find at least one class (more are okay) partner, and design a distributed applic
 Our design is gesture remote control to switch slides back and forth. We think it is very necessary and cool to implement this design because every presenter face the challenge of how to switching slides smoothly while maintain good reliability. Sometimes a remote control device might be out of battery or too long of a distance or might just be the presenter forgets to bring a remote control. That way it would be very difficult to move on with their presentations. With our design, we can remotely control the presentation moving forward and backward with simple gestures to make presenters’ lives much easier.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+![2741667781733_ pic](https://user-images.githubusercontent.com/58859231/200207165-ea0ac588-5fa5-4165-a404-789732bd8db8.jpg)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+
+Our design is very easy in terms of user interface. If users encounter our design, they only need to wave their hands up/down or left/right to the gesture sensor to suggest which remote signals they want to send, and raspberry pi would help them to inform the server side to move to previous or next slide of the presentation slides. Up/left means previous slide and down/right means next slide.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
