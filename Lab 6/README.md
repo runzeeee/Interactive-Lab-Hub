@@ -187,5 +187,11 @@ Our design is very easy in terms of user interface. If users encounter our desig
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
+
+
+https://user-images.githubusercontent.com/58859231/200208174-156b96d6-ff17-46d4-b052-d23f5bff9ed7.mp4
+
+
+
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
