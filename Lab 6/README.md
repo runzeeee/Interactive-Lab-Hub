@@ -165,6 +165,9 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+YES!
+![2861667779983_ pic](https://user-images.githubusercontent.com/58859231/200203354-ccdbac7e-82bc-46ca-9b71-726c80c548aa.jpg)
+
 
 ### Part E
 ### Make it your own
