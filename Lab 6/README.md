@@ -96,6 +96,18 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. Monitor computer screen color with color sensor to change ambient lighting.
+
+2. Monitor the ambient light level with a light sensor to change the computer screen brightness.
+
+3. Put an accelerometer on your arm to monitor arm movement to play somatosensory games.
+
+4. Monitor speaker gestures with gesture sensors to switch slides.
+
+5. Use the distance sensor to monitor the distance between the person watching the TV and the TV, so as to avoid people watching too close to the TV and hurting the eyes (especially for children).
+
+
+
 ### Part C
 ### Streaming a Sensor
 
