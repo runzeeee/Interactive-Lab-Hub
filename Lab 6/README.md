@@ -2,6 +2,8 @@
 
 **NAMES OF COLLABORATORS HERE**
 
+**Runze Zhang(rz387), Hongjiao Zhang(hz452)**
+
 ## Prep
 
 1. Pull the new changes from the class interactive-lab-hub. (You should be familiar with this already!)
@@ -96,6 +98,18 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. Monitor computer screen color with color sensor to change ambient lighting.
+
+2. Monitor the ambient light level with a light sensor to change the computer screen brightness.
+
+3. Put an accelerometer on your arm to monitor arm movement to play somatosensory games.
+
+4. Monitor speaker gestures with gesture sensors to switch slides.
+
+5. Use the distance sensor to monitor the distance between the person watching the TV and the TV, so as to avoid people watching too close to the TV and hurting the eyes (especially for children).
+
+
+
 ### Part C
 ### Streaming a Sensor
 
@@ -116,8 +130,10 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![2851667779783_ pic_hd](https://user-images.githubusercontent.com/58859231/200203157-625f113c-35ae-4ae8-a956-3668cbe4b8d0.jpg)
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+![2841667779783_ pic_hd](https://user-images.githubusercontent.com/58859231/200203163-740aae1d-0f16-4625-840a-db3b815150ba.jpg)
 
 
 ### Part D
@@ -151,6 +167,9 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+YES!
+![2861667779983_ pic](https://user-images.githubusercontent.com/58859231/200203354-ccdbac7e-82bc-46ca-9b71-726c80c548aa.jpg)
+
 
 ### Part E
 ### Make it your own
@@ -159,11 +178,22 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+Our design is gesture remote control to switch slides back and forth. We think it is very necessary and cool to implement this design because every presenter face the challenge of how to switching slides smoothly while maintain good reliability. Sometimes a remote control device might be out of battery or too long of a distance or might just be the presenter forgets to bring a remote control. That way it would be very difficult to move on with their presentations. With our design, we can remotely control the presentation moving forward and backward with simple gestures to make presenters’ lives much easier.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+![2741667781733_ pic](https://user-images.githubusercontent.com/58859231/200207165-ea0ac588-5fa5-4165-a404-789732bd8db8.jpg)
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
+Our design is very easy in terms of user interface. If users encounter our design, they only need to wave their hands up/down or left/right to the gesture sensor to suggest which remote signals they want to send, and raspberry pi would help them to inform the server side to move to previous or next slide of the presentation slides. Up/left means previous slide and down/right means next slide.
+
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+
+
+https://user-images.githubusercontent.com/58859231/200208174-156b96d6-ff17-46d4-b052-d23f5bff9ed7.mp4
+
+
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
