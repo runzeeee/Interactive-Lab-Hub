@@ -176,6 +176,8 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+Our design is gesture remote control to switch slides back and forth. We think it is very necessary and cool to implement this design because every presenter face the challenge of how to switching slides smoothly while maintain good reliability. Sometimes a remote control device might be out of battery or too long of a distance or might just be the presenter forgets to bring a remote control. That way it would be very difficult to move on with their presentations. With our design, we can remotely control the presentation moving forward and backward with simple gestures to make presenters’ lives much easier.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
